@@ -2,13 +2,13 @@ body {
   font-family: 'Orbitron', sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  background: linear-gradient(100deg, #2c3e50, #00B5CC);
   color: #ffffff;
   overflow-x: hidden;
 }
 
 header {
-  background-color: #61dafb;
+  background-color: #000000;
   padding: 20px;
   text-align: center;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -58,6 +58,7 @@ h1 {
 
 .character-card img:hover {
   transform: scale(1.1);
+  border: solid 5px #B2DF28;
 }
 
 .character-card h2 {
@@ -71,3 +72,79 @@ h1 {
   font-size: 1rem;
   color: #b0b0b0;
 }
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+/* Estilização do dropdown */
+.filters select {
+  padding: 10px;
+  width: 180px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #61dafb; 
+  background-color: #3c3e44; 
+  color: #ffffff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  appearance: none; /* Remove a seta padrão */
+  -webkit-appearance: none; /* Remove a seta padrão no Safari */
+  -moz-appearance: none; /* Remove a seta padrão no Firefox */
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+.filters select::-ms-expand {
+  display: none; 
+}
+
+.filters select:focus, .filters select:hover {
+  border-color: #ffffff; 
+  background-color: #282c34; 
+  color: #61dafb; 
+}
+
+.filters div {
+  position: relative;
+}
+
+.filters div::after {
+  content: '▼'; 
+  font-size: 12px;
+  color: #ffffff;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; 
+}
+
+@media (max-width: 600px) {
+  .filters {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .filters select {
+    width: 100%;
+  }
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+

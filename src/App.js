@@ -1,11 +1,12 @@
 import React from 'react';
 import CharacterList from './components/CharacterList';
+import logo from './assets/logo.png';  
 
 function App() {
   return (
     <div>
       <header>
-        <h1>Rick and Morty Characters</h1>
+        <img src={logo} alt="Rick and Morty Logo" style={{ maxWidth: '200px', height: 'auto' }} />
       </header>
       <main>
         <CharacterList />
