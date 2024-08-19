@@ -1,13 +1,73 @@
 body {
+  font-family: 'Orbitron', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: #ffffff;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  background-color: #61dafb;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.character-card {
+  background: linear-gradient(135deg, #3c3e44, #444952);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.character-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.9);
+}
+
+.character-card img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.character-card img:hover {
+  transform: scale(1.1);
+}
+
+.character-card h2 {
+  margin: 15px 0 10px 0;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.character-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #b0b0b0;
 }
