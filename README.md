@@ -13,6 +13,9 @@ Este projeto é uma aplicação web desenvolvida em React que exibe personagens 
 - **React:** Biblioteca JavaScript para construção de interfaces de usuário.
 - **Rick and Morty API:** Fonte de dados para os personagens da série.
 - **CSS3:** Para estilização e efeitos visuais.
+  
+## Demo do projeto
+[Rick and Morty site](https://rick-and-mortyreactapi.netlify.app/).
 
 ## Como Rodar o Projeto
 
