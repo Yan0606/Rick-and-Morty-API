@@ -1,5 +1,4 @@
-# Aplicativo de Personagens de Rick and Morty <img src="https://github.com/user-attachments/assets/8ae88ce4-e0eb-4307-90fd-598326213ad1" alt="Rick and Morty" style="width: 150px; vertical-align: middle;"/> 
-
+#  React API Rick and Morty <img src="https://github.com/user-attachments/assets/8ae88ce4-e0eb-4307-90fd-598326213ad1" alt="Rick and Morty" style="width: 150px; vertical-align: middle;"/> 
 
 Este projeto é uma aplicação web desenvolvida em React que exibe personagens da série "Rick and Morty" utilizando a [Rick and Morty API](https://rickandmortyapi.com/). O objetivo principal deste projeto é reforçar meus estudos e habilidades em React, bem como a integração de APIs REST.
 
