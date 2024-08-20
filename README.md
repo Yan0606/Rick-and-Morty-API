@@ -22,3 +22,16 @@ Este projeto é uma aplicação web desenvolvida em React que exibe personagens 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/rick-and-morty-app.git
+
+2. Entre na pasta :
+    ```bash
+    cd <nome do projeto>
+    ```
+3. Instale as dependências necessárias:
+    ```bash
+    npm install
+    ```
+4. Inicie o projeto:
+    ```bash
+    npm start
+    ```
